@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "gym-routine-app/index.html",
+      "src": "blog-website/index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "gym-routine-app/index.html"
+      "dest": "blog-website/index.html"
     }
   ]
 }
+
